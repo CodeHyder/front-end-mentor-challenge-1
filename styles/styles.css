@@ -1,0 +1,35 @@
+:root {
+    --azul-escuro: hsl(212, 21%, 14%);
+    --cinza: hsl(228, 12%, 48%);
+    --ciano: hsl(158, 36%, 37%);
+    --creme: hsl(30, 38%, 92%);
+    --branco: hsl(0, 0%, 100%);
+    --montserrat: 'Montserrat', sans-serif;
+    --fraunces: 'Fraunces', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: var(--creme);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid green; */
+
+}
+
+
+
+

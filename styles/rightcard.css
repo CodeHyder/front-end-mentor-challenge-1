@@ -1,0 +1,151 @@
+.right-card {
+    background-color: var(--branco);
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.right-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    width: 90%;
+
+}
+
+.right-card-title-container{
+    margin: 40px 0px 10px 40px;
+}
+
+.card-title{
+    font-size: 2.3rem;
+   font-family: var(--fraunces);
+   font-weight: 700;
+   
+}
+
+.card-subtitle{
+    font-family: var(--montserrat);
+    font-weight: 200;
+    font-size: 1rem;
+    color: var(--cinza);
+    margin-bottom: 20px;
+}
+
+.right-card-text-container{
+    margin: 0px 0px 25px 40px;
+    max-width: 400px;
+}
+
+.right-card-text{
+    font-family: var(--montserrat);
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: var(--cinza);
+    margin-top: 5px;
+}
+
+.right-card-price-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.right-card-price{
+    color: var(--ciano);
+    font-size: 2.5rem;
+    font-family: var(--fraunces);
+    margin-right: 20px;
+}
+
+.price-sratched{
+    font-family: var(--montserrat);
+    font-weight: 100;
+    color: var(--cinza);
+    font-size: 1.1rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;   
+    
+}
+
+.fa-cart-shopping{
+    margin-right: 10px;
+}
+
+.right-card-btn {
+    background-color: var(--ciano);
+    box-shadow: 1px 1px 1px var(--cinza);
+    font-family: var(--montserrat);
+    border: none;
+    padding: 20px;
+    width: 335px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 25px 0px 0px 40px ;
+}
+
+@media (max-width: 800px) {
+
+    .right-card {
+        min-height: 420px;
+        min-width: 400px;
+        border-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .right-card-content{
+        height: 100%;
+        width: 100%;
+    }
+
+    .right-card-title-container{
+        margin:0;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card-subtitle{
+        margin: 0;
+    }
+
+    .right-card-text-container{
+        margin: 0;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .right-card-text{
+        font-size: 1rem;
+        margin-bottom   : 5px;
+    }
+
+    .right-card-price-container{
+        margin:0;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .right-card-price{
+        font-size: 2rem;
+    }
+
+    .right-card-btn{
+        margin:0;
+    }
+
+    .btn-container{
+        justify-content: start;
+        margin-left: 20px;
+    }
+}
